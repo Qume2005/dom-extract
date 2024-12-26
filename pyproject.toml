@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "dom-extract"
+version = "0.1.0"
+description = ""
+authors = ["Qume <qume2005@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+bs4 = "^0.0.2"
+markdownify = "^0.14.1"
+markdown = "^3.7"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+extract = "dom_extract:extract"

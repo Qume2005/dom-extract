@@ -1,0 +1,1 @@
+from .extractor import main as extract
