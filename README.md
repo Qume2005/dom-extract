@@ -1,6 +1,6 @@
-# Dom-extract
+# dom-extract
 
-> 一个简单易用的html清洗器，提取出干净的html文本
+一个简单易用的html清洗器，提取出干净的html文本
 
 ## 安装*poetry*
 
